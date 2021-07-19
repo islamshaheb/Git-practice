@@ -1,0 +1,63 @@
+/** @format */
+
+.App-header {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.App-header > img,
+.App-header > video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: -2;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.App-header > .isActive {
+  z-index: -1;
+}
+
+#select-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
+}
+.toboggan {
+  background-image: url(./media/toboggan.jpg);
+}
+.yeti_village {
+  background-image: url(./media/yeti_village.jpg);
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+/* Button's Style*/
+#btn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#write {
+  color: yellowgreen;
+}
