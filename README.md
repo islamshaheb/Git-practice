@@ -16,6 +16,3 @@ npm start
 ![Screenshot (339)](https://user-images.githubusercontent.com/33740662/113618267-3f2c2900-9679-11eb-9f9b-dc2ade45b5c0.png)
 
 
-##  [This  ](https://github.com/islamshaheb/Working-with-.csv-file-using-NodeJs) is a Javascript code sample that I want to discuss during my interview.
-
-
