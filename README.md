@@ -1,11 +1,3 @@
-Javascript Application Developer Exercise
-=====================================
-To get started, run:
-```
-npm install
-npm start
-```
-
 # Screen-shot of the view:
 
 ##   Defult page
